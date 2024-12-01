@@ -1,4 +1,4 @@
-내 토큰이 주피터 토큰이 되길 바라며...
+Hope to my token will be Jupiter token...
 
 This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](/packages/create-rainbowkit).
 
@@ -53,6 +53,3 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - enter right command at your terminal: npx nodemon .\src\server.js
 
-
-
-Ctrl Shit V: Preview
