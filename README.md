@@ -57,7 +57,7 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - BASE_SEPOLIA_RPC_URL= refer 'https://sepolia.base.org'
 - ADMIN_PRIVATE_KEY= use your Metamask or Phatom wallet address's Private Key + Prefix as '0x'
-- NEXT_PUBLIC_TOKEN_CONTRACT_NAME = refer contracts/Drop.sol, You can chahge that's name whatever you want
+- NEXT_PUBLIC_TOKEN_CONTRACT_NAME = refer contracts/JUP.sol, You can chahge that's name whatever you want
 - NEXT_PUBLIC_TOKEN_CONTRACT_ADDRESS= use deployed contract address(write right code that your command console)
 => npx hardhat compile -> npx hardhat run scripts/token_deploy.js --network sepoliaBase(You can choose whatever you want) -> npx hardhat run scripts/token_distribute.js --network sepoliaBase  
 - NEXT_PUBLIC_ADMIN_WALLET_ADDRESS= your wallet address

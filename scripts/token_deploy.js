@@ -1,9 +1,10 @@
-import 'dotenv/config';
+// import 'dotenv/config'; import 대신 require 사용 (CommonJS 모드 유지)
+require('dotenv').config();
 
 async function main(contractName) {
-    const [deployer] = await ethers.getSigners();
+  const [deployer] = await ethers.getSigners();
 
-    console.log("Deploying contracts with the account:", deployer.address); 
+  console.log("Deploying contracts with the account:", deployer.address);
 
   try {
     const TestToken = await ethers.getContractFactory(contractName); // 컨트랙트 컴파일 된 파일 가져옴

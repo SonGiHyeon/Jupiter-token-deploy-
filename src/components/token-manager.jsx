@@ -116,14 +116,17 @@ export function TokenManagerComponent() {
     }
   }
 
+  const tokenName = process.env.NEXT_PUBLIC_TOKEN_CONTRACT_NAME;
+
   return (
     <Card className="w-full max-w-md mx-auto">
       <CardHeader>
         <CardTitle>토큰 관리자</CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
+
         <div className="text-center text-2xl font-bold">
-          잔액: {balance} 토큰
+          {tokenName} 토큰의 잔액: {balance} 토큰
         </div>
         <div className="flex justify-center">
           <Button onClick={handleReceiveTokens}>토큰 받기</Button>
